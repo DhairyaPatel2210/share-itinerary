@@ -1,0 +1,3 @@
+[submodule "itinerary-service"]
+	path = itinerary-service
+	url = https://github.com/DhairyaPatel2210/itinerary-service.git
