@@ -30,9 +30,31 @@
         
         ```json
         {
-            "name": "new Hi",
-            "transportationMode": "Hello",
-            "travelDays": 98
+            "name": "Dubai",
+            "summary" : "Visited Dubai",
+            "day_count" : 5,
+            "days" : [
+                {
+                    "day_no" : 1,
+                    "date": "2024-09-14",
+                    "activities" : [
+                        {
+                            "title" : "Dubai Mall Visit",
+                            "images" : [
+                                {
+                                    "link" : "https://bda-project.s3.us-west-1.amazonaws.com/image_temp.jpg"
+                                }
+                            ],
+                            "description" : "There were 40 international shops inside Dubai Mall",
+                            "location" : {
+                                "name" : "Dubai Mall",
+                                "latitude" : 25.199514,
+                                "longitude" : 55.277397
+                            }
+                        }
+                    ]
+                }
+            ]
         }
         ```
         
